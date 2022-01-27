@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+   
+}
+header,footer{
+    height: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+   clear:left;
+  
+}
+
+.column1{
+    height:500px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+   
+   }
+    
+   .column2{
+    height: 500px;
+    width: 40%;
+    border: 1px solid black;
+    float: left;
+   
+   }
+    
+   .column3{
+    height: 500px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+   
+   }
+    
+   .column4{
+    height: 500px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+   
+   }
+    
+
+ 
+   .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
